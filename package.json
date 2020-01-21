@@ -18,6 +18,9 @@
   "bin": {
     "llgenerator": "./app.js"
   },
+  "resolutions": {
+    "**/js-yaml": "^3.13.1"
+  },
   "dependencies": {
     "hbs": "^4.1.0",
     "inquirer": "^7.0.3",
