@@ -1,0 +1,7 @@
+{
+    "postInstall": {
+        "message": [
+            "To start use: 'yarn start'"
+        ]
+    }
+}

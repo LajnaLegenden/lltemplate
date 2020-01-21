@@ -1,0 +1,27 @@
+{
+  "name": "lltemplate",
+  "version": "0.1.0",
+  "description": "My own package generator to use for my personal projects",
+  "main": "app.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "node app.js",
+    "start:watch": "nodemon app.js"
+  },
+  "repository": "https://github.com/LajnaLegenden/lltemplate",
+  "author": "Lajna",
+  "license": "UNLICENCED",
+  "private": false,
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "bin": {
+    "llgenerator": "./app.js"
+  },
+  "dependencies": {
+    "hbs": "^4.1.0",
+    "inquirer": "^7.0.3",
+    "shelljs": "^0.8.3",
+    "yargs": "^15.1.0"
+  }
+}
