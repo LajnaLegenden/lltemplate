@@ -20,7 +20,7 @@
   "devDependencies": {
     "browserify-hmr": "^0.4.1",
     "node-env-run": "^3.0.2",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "nodenv": "^0.1.0",
     "vueify": "^9.4.1",
     "watchify": "^3.11.1"
